@@ -15,5 +15,9 @@ Tutorial:
 13. see it pass, see it fail
 14. add 'mocha' to 'default' task - and it fails. What's going on here? E ADDR IN USE
 15. need some ports and some envs.
+16. npm i --save gulp-env
+17. set NODE_ENV, PORT via env({vars:{}}), pull PORT from process.env.PORT
+18. set NODE_ENV, PORT via nodemon({env({})})
+19. 
 
 
