@@ -13,6 +13,13 @@ gulp.task('nodemon', function() {
   });
 });
 
+gulp.task('watch', function(){
+  gulp.watch(
+    ['index.js', 'test/*.js'],
+    ['mocha']
+  );
+});
+
 gulp.task('mocha', function() {
   env({
     vars: {
@@ -27,4 +34,4 @@ gulp.task('mocha', function() {
     }));
 });
 
-gulp.task('default', ['nodemon', 'mocha']);
+gulp.task('default', ['nodemon', 'mocha', 'watch']);

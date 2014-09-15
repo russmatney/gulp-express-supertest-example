@@ -18,6 +18,6 @@ Tutorial:
 16. npm i --save gulp-env
 17. set NODE_ENV, PORT via env({vars:{}}), pull PORT from process.env.PORT
 18. set NODE_ENV, PORT via nodemon({env({})})
-19. 
+19. write 'watch' gulp task - gulp.watch([files], [tasks]) - now live-reload works, for tests and server
 
 
