@@ -10,5 +10,10 @@ Tutorial:
 8. npm i --save supertest
 9. write test/endpoint.spec - include first test (expect a 200) ~ 9 lines
 10. should run fine w/ mocha test/endpoint.spec.js (see it fail, see it pass)
+11. npm i --save gulp-mocha
+12. add 'mocha' gulp task - `return gulp.src(), bail: false, reporter: nyan` ~ 6 lines
+13. see it pass, see it fail
+14. add 'mocha' to 'default' task - and it fails. What's going on here? E ADDR IN USE
+15. need some ports and some envs.
 
 
