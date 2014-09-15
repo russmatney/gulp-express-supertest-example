@@ -1,0 +1,16 @@
+{
+  "name": "gulp.express-supertest-example",
+  "version": "0.0.0",
+  "description": "Express + supertest dev env setup from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "`which gulp` test-once"
+  },
+  "keywords": [
+    "gulp",
+    "express",
+    "supertest"
+  ],
+  "author": "Russell Matney <russell.matney@gmail.com>",
+  "license": "MIT"
+}
