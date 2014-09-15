@@ -6,5 +6,9 @@ Tutorial:
 4. build index.js - see get work in browser, ~ 10 lines
 5. npm i --save gulp gulp-nodemon
 6. write gulpfile w/ nodemon - ~ 7 lines. see live-reload work in terminal + browser
+7. add 'default' task to gulpfile
+8. npm i --save supertest
+9. write test/endpoint.spec - include first test (expect a 200) ~ 9 lines
+10. should run fine w/ mocha test/endpoint.spec.js (see it fail, see it pass)
 
 

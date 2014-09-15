@@ -6,3 +6,5 @@ gulp.task('nodemon', function() {
     script: "./index.js"
   });
 });
+
+gulp.task('default', ['nodemon']);
