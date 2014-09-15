@@ -12,5 +12,12 @@
     "supertest"
   ],
   "author": "Russell Matney <russell.matney@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.0",
+    "gulp": "^3.8.8",
+    "gulp-mocha": "^1.1.0",
+    "gulp-nodemon": "^1.0.4",
+    "supertest": "^0.13.0"
+  }
 }
