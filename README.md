@@ -22,4 +22,5 @@ Tutorial:
 17. set NODE_ENV, PORT via env({vars:{}}), pull PORT from process.env.PORT
 18. set NODE_ENV, PORT via nodemon({env({})})
 19. write 'watch' gulp task - gulp.watch([files], [tasks]) - now live-reload works, for tests and server
+20. more specific supertest testing
 

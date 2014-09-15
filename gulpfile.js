@@ -31,7 +31,9 @@ gulp.task('mocha', function() {
     .pipe(mocha({
       bail: false,
       reporter: "nyan"
-    }));
+    }).on('error', function(){})
+      //do nothing
+    );
 });
 
 gulp.task('default', ['nodemon', 'mocha', 'watch']);
